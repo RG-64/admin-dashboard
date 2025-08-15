@@ -45,3 +45,20 @@ body{
     height:20px;
 }
 
+.actionbar{
+    grid-column:2/4;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
+}
+
+#bar{
+    font-size:30px;
+    background-color:rgb(224, 221, 221);
+    border-radius:15px;
+    height:30px;
+    width:800px;
+    margin-right:80px;
+}
+
