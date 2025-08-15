@@ -1,0 +1,47 @@
+body{
+    display:grid;
+    grid-template-columns: 300px 3fr 1fr;
+    grid-template-rows: 2fr 3fr 3fr;
+}
+.sidebar{
+    display:grid;
+    grid-template-rows: 60px 300px 150px;
+    gap:50px;
+    grid-row:1/4;
+    background-color:rgb(0, 159, 212);
+    color:white;
+    font-family:"Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    padding-left:50px;
+}
+#name{
+    display:flex;
+    padding:10px;
+    padding-left:0px;
+    padding-bottom: 50px;
+    height:50px;
+    flex-direction:row;
+    justify-content: left;
+    align-items:center;
+    font-size:25px;
+}
+
+.tabs1{
+    display:grid;
+    grid-template-rows: repeat(6,45px) ;
+    justify-content: left;
+    align-content:center;
+}
+
+.tabs2{
+    display:grid;
+    grid-template-rows: repeat(3,45px) ;
+    justify-content: left;
+    align-content:center;
+}
+
+.tabs>img{
+    height:20px;
+}
+
