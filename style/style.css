@@ -58,6 +58,8 @@ body{
 }
 
 .toparea{
+    display:grid;
+    grid-template-columns: 2fr 1fr;
     grid-column: 1/3;
     height:100px;
 }
